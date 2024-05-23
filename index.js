@@ -18,3 +18,9 @@ button.addEventListener("click", () => {
     count ++
     counterSpan.innerText = count
 })
+
+
+function reset() {
+    number = 0;
+    document.getElementById("counter").innerHTML = number;
+}
