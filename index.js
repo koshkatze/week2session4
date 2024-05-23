@@ -1,10 +1,8 @@
-document.write("Some text added by JavaScript")
+const value = document.getElementById("message").textContent;
+let result ="";
 
-const embeddedDiv = document.getElementById("about-me");
+for (let i = 0; i < 10; i ++) {
+    result += value + " ";
+}
 
-console.log(embeddedDiv)
-
-embeddedDiv.innerText = "I am replacing what was there before"
-embeddedDiv.append("Hello World")
-
-console.log(embeddedDiv.textContent)
+document.getElementById("message").textContent = result;
