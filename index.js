@@ -1,0 +1,1 @@
+document.write("Some text added by JavaScript")
