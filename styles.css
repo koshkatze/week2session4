@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(164, 232, 232);
+}
+
+button {
+    background-color: rgb(211, 255, 255);
+}
+
+#click_me_button {
+    background-color: beige;
+}
